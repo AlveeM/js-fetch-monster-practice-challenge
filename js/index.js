@@ -3,7 +3,7 @@ const BASE_URL = "http://localhost:3000/";
 let curPage = 1;
 
 // Function Calls
-getMonsters(1).then(showMonsters);
+getMonsters(curPage).then(showMonsters);
 createMonsterForm();
 addNavListeners();
 
